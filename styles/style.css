@@ -43,6 +43,8 @@ body {
 
 .header__logo {
   grid-column: 4/5;
+  justify-self: stretch;
+  align-self: stretch;
   padding: 0 27px 0 28px;
 }
 
@@ -140,10 +142,13 @@ body {
   border: 1px solid #fff;
   padding: 12px 32px;
   color: inherit;
+  font-family: Raleway, sans-serif;
+  font-weight: normal;
   font-size: inherit;
   line-height: 1.2;
   text-transform: inherit;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .lots {
