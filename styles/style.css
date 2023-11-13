@@ -261,8 +261,10 @@ body {
   text-transform: uppercase;
 }
 
-.about__text:first-of-type {
-  margin-bottom: 25px;
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 .footer {
@@ -291,8 +293,7 @@ body {
 .footer__social-list {
   display: flex;
   justify-content: space-between;
-  width: 240px;
-  max-height: 48px;
+  gap: 48px;
   list-style-type: none;
 }
 
